@@ -27,20 +27,10 @@ describe('convertTimestampsToDate', () => {
 
     it('should handle missing or invalid timestamps', () => {
         const testData = {
-            // Missing start and end properties
-            // start: {
-            //   seconds: 1705840675,
-            //   nanoseconds: 173000000,
-            // },
-            // end: {
-            //   seconds: 1705840675,
-            //   nanoseconds: 173000000,
-            // },
-
-            // Or use invalid values for nanoseconds
+           
             start: {
                 seconds: 1705840675,
-                nanoseconds: 'invalid', // invalid nanoseconds value
+                nanoseconds: 'invalid', 
             },
             end: {
                 seconds: 1705840675,
