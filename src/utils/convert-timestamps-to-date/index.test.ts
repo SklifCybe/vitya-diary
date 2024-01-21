@@ -50,7 +50,7 @@ describe('convertTimestampsToDate', () => {
 
         const result = convertTimestampsToDate(testData);
 
-        expect(result.start instanceof Date).toBe(false);
-        expect(result.end instanceof Date).toBe(false);
+        expect(result.start instanceof Date).toBe(true);
+        expect(result.end instanceof Date).toBe(true);
     });
 });
